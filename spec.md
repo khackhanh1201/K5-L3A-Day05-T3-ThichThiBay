@@ -240,7 +240,12 @@ Lớp: ① nguồn sự thật / AI bịa · ② mơ hồ, thiếu · ③ ngoài
 
 ## §7. Demo
 
-- **Ca lạ nhận được:** `[ghi ca TA / nhóm bạn đưa]`
-- **Prototype / nhóm đã làm gì:** `[đi đường nào, tool nào ở mức nào]`
-- **Có đổi ý gì sau ca đó không:** `[…]`
-- Phân công trình bày: `[người 1]` lát cắt + trả lời ca lạ · `[người 2]` mức tự chủ và cái giá khi sai · `[người 3]` bấm prototype qua ca khó.
+- **Ca lạ nhận được:** Chưa có ca lạ bổ sung từ TA hoặc nhóm khác. Nhóm demo trên các tình huống đã phân tích: K5 → K10 và K9.
+- **Ca chính · K5 → K10 (Nguyễn Nam Khánh thao tác, Nguyễn Khắc Khánh dẫn chuyện):**
+  1. Bấm **Bắt đầu lại**, bật **Hiện số đánh dấu** và **Tua nhanh đồng hồ**.
+  2. Chọn chip **“ok”**. Chỉ `tra_cuu_dat_cho` và `giu_cho_chuyen_moi` chạy ở mức **tự làm**: trợ lý giữ BM 201 cho cả hai mẹ con, nêu căn cứ BM 217 chỉ còn 1 chỗ, rồi hỏi lại. Nhật ký chưa có `doi_chuyen_bay` — chữ “ok” không đủ để đổi vé.
+  3. Bấm **Đổi sang BM 201 cho cả 2 người**, kiểm tra tên hành khách và cảnh báo mất lần đổi miễn phí, rồi bấm **Xác nhận đổi**. Khi bật tua nhanh, đồng hồ 60 giây chạy trong khoảng 3 giây; hết giờ mới gọi `doi_chuyen_bay`. Để đi tiếp K10, không bấm **Hoàn tác**.
+  4. Sau khi đổi xong, bấm **Báo đổi nhầm**. Trợ lý giữ BM 205 và chuyển nhân viên ở mức **tự làm**, kèm tóm tắt; không hứa tự đổi lại vì lần đổi miễn phí đã dùng. Nếu muốn minh hoạ **Hoàn tác**, chạy lại ca từ đầu và bấm nút này trước khi đồng hồ hết.
+- **Ca phụ · K9 (Nguyễn Nam Khánh thao tác):** Bấm **Bắt đầu lại**, chọn chip **“Thôi huỷ hết đi, hoàn tiền cho mình.”** Trợ lý soạn bản nháp ở mức **tự làm**, nêu rõ yêu cầu không huỷ được, tiền về phương thức thanh toán ban đầu và có thể mất tới 90 ngày. Khi chưa tick xác nhận, nút gửi bị khoá; chỉ khách tick và bấm gửi thì `gui_yeu_cau_hoan_ve` mới chạy ở mức **khách duyệt**. Có thể dừng ở bản nháp để nhấn mạnh AI chưa gửi gì.
+- **Sau ca lạ có đổi thiết kế không:** Không có thay đổi bổ sung; nhóm chưa nhận được ca lạ ngoài các tình huống đã có trong đặc tả.
+- **Phân công trình bày:** Nguyễn Khắc Khánh — giới thiệu lát cắt, dẫn K5/K9 và trả lời câu hỏi; Vũ Quang Dũng — giải thích mức tự chủ, câu chữ AI và cái giá khi sai; Nguyễn Nam Khánh — thao tác prototype qua K5 → K10 và K9, chỉ ra nhật ký tool.
